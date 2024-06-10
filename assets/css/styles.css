@@ -47,6 +47,12 @@ a span {
     font-size: 155%;
 }
 
+/* push the logo to the left side of the navbar */
+nav li:first-child {
+    margin-right: auto;
+    border-bottom: none;
+}
+
 .active {
     background-color: #363636;
     border-radius: 30px;
