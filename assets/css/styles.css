@@ -38,6 +38,20 @@ nav li {
     height: 60px;
 }
 
+a span {
+    color: rgb(170, 0, 0);
+}
+
+.logo a {
+    color: rgb(206, 206, 206);
+    font-size: 155%;
+}
+
+.active {
+    background-color: #363636;
+    border-radius: 30px;
+}
+
 /* Main  */
 main {
     height: 600px;
