@@ -13,11 +13,23 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-header {
-    background-color: black;
-    
+/* Header  */
+nav {
+    background-color: #000;
+ }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+main {
+    height: 600px;
+}
+
+/* Footer  */
 footer {
     background-color: black;
     color: white;
