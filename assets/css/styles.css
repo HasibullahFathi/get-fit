@@ -15,7 +15,7 @@ body {
 
 /* Header  */
 nav {
-    background-color: #000;
+    background-color: #000000;
  }
 
 nav ul {
@@ -25,6 +25,20 @@ nav ul {
     align-items: center;
 }
 
+nav a {
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    color: #ffffff;
+    padding: 0 1em;
+    align-items: center;
+}
+
+nav li {
+    height: 60px;
+}
+
+/* Main  */
 main {
     height: 600px;
 }
