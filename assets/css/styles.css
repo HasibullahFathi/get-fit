@@ -145,4 +145,8 @@ footer {
         background-color: #000000;
     }
 
+    .social-media-list {
+        padding: 1em 180px;
+    }
+
 }
