@@ -127,4 +127,8 @@ footer {
         transition: 0.3s;
     }
 
+    .remove-hover a:hover {
+        background-color: #000000;
+    }
+
 }
