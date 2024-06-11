@@ -60,7 +60,7 @@ nav li:first-child {
 
 /* toggleing part of the nav button  */
 .nav-toggle {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
