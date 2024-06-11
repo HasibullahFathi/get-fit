@@ -99,3 +99,12 @@ footer {
     background-color: black;
     color: white;
 }
+
+
+/* media queries  */
+/* media Querie for 320 px screen sizes  */
+@media (min-width: 320px) {
+    .nav-toggle{
+        width: 320px;
+    }
+}
