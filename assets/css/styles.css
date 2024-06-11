@@ -16,7 +16,7 @@ body {
 /* Header  */
 nav {
     background-color: #000000;
- }
+}
 
 nav ul {
     list-style: none;
@@ -108,7 +108,7 @@ footer {
     padding: 1em;
 }
 
-.social-media-item a{
+.social-media-item a {
     font-size: 160%;
     text-decoration: none;
     color: #ffffff;
@@ -118,7 +118,7 @@ footer {
 /* media queries  */
 /* media Querie for 320 px screen sizes  */
 @media (min-width: 320px) {
-    .nav-toggle{
+    .nav-toggle {
         width: 320px;
     }
 }

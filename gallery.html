@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- page title -->
-        <title>Get fit</title>
-        <!-- css link -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title -->
+    <title>Get fit</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
     <body>
-        
-        <body>
-            <!-- Header -->
+        <!-- Header -->
         <header>
             <nav>
                 <!-- menu for mobile or smaller screen with burgur icon -->
                 <ul class="nav-toggle">
                     <li onclick=closeMenu()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li  class="active"><a href="gallery.html">Gallery</a></li>
+                    <li class="active"><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="sign-up.html">Sign Up</a></li>
                 </ul>
@@ -35,26 +37,34 @@
         </header>
 
         <!-- Main  -->
-         <main>
+        <main>
             <h1>Gallery</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-         </main>
+        </main>
 
-         <!-- Footer  -->
-         <footer>
+        <!-- Footer  -->
+        <footer>
             <ul class="social-media-list">
-                <li class="social-media-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (open in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-                <li class="social-media-item"><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (open in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-                <li class="social-media-item"><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (open in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>
-                <li class="social-media-item"><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (open in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li class="social-media-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (open in a new tab)"><i
+                            class="fa-brands fa-square-facebook"></i></a></li>
+                <li class="social-media-item"><a href="https://twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (open in a new tab)"><i
+                            class="fa-brands fa-square-x-twitter"></i></a></li>
+                <li class="social-media-item"><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (open in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a></li>
+                <li class="social-media-item"><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (open in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a></li>
             </ul>
-         </footer>
+        </footer>
 
         <!-- Scripts for fontawesome -->
         <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
         <script>
             // querie to open navbar in mobile and small screens 
-             function openMenu() {
+            function openMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'flex'
             }
@@ -65,4 +75,5 @@
             }
         </script>
     </body>
+
 </html>
