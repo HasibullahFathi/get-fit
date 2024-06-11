@@ -108,3 +108,16 @@ footer {
         width: 320px;
     }
 }
+
+/* media Querie for 768 px screen sizes */
+@media (min-width: 768px) {
+
+    .hide-nav {
+        display: block;
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+}
