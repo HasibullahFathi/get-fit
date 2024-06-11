@@ -84,6 +84,11 @@ nav li:first-child {
     width: 100%;
 }
 
+/* hide nave in smaller screens */
+.hide-nav {
+    display: none;
+}
+
 /* Main  */
 main {
     height: 600px;
