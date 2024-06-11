@@ -16,7 +16,7 @@
             <nav>
                 <!-- menu for mobile or smaller screen with burgur icon -->
                 <ul class="nav-toggle">
-                    <li><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li onclick=closeMenu()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact</a></li>
@@ -29,7 +29,7 @@
                     <li class="hide-nav"><a href="#">Gallery</a></li>
                     <li class="hide-nav"><a href="#">Contact</a></li>
                     <li class="hide-nav"><a href="#">Sign Up</a></li>
-                    <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                    <li onclick=openMenu()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -46,5 +46,17 @@
 
         <!-- Scripts for fontawesome -->
         <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
+        <script>
+            // querie to open navbar in mobile and small screens 
+             function openMenu() {
+                const sidebar = document.querySelector('.nav-toggle')
+                sidebar.style.display = 'flex'
+            }
+            // querie to close navigator menu in small screens
+            function closeMenu() {
+                const sidebar = document.querySelector('.nav-toggle')
+                sidebar.style.display = 'none'
+            }
+        </script>
     </body>
 </html>
