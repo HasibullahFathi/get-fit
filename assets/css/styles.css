@@ -214,6 +214,15 @@ nav li:first-child {
     height: 100vh;
 }
 
+.register-text {
+    background-color: rgb(139 0 0 / 52%);
+    color: #ffffff;
+    padding: 10px;
+    min-height: 200px;
+    line-height: 2em; 
+    width: 300px;
+}
+
 /* Footer  */
 footer {
     background-color: black;
