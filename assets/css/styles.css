@@ -219,7 +219,7 @@ nav li:first-child {
     color: #ffffff;
     padding: 10px;
     min-height: 200px;
-    line-height: 2em; 
+    line-height: 1.5em; 
     width: 300px;
 }
 
@@ -341,7 +341,7 @@ footer {
     }
 
     .hero-text {
-        bottom: 40%;
+        bottom: 40;
         line-height: 3em;
     }
 
