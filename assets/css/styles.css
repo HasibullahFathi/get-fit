@@ -90,8 +90,31 @@ nav li:first-child {
 }
 
 /* Main  */
-main {
+.hero {
+    display: flex;
+}
+
+.hero h1 {
+    font-size: 190%;
+}
+.hero-img {
+    width: 100%;
     height: 600px;
+    background: url(../images/hero-img.webp) no-repeat center center / cover;
+    background-position: 25%;
+    position: relative;
+}
+
+.hero-text {
+    background-color: rgb(139 0 0 / 37%);
+    bottom: 39%;
+    left: 10%;
+    color: #ffffff;
+    position: absolute;
+    padding-left: 10px;
+    min-height: 200px;
+    padding-top: 20px;
+    
 }
 
 /* Footer  */
