@@ -117,6 +117,27 @@ nav li:first-child {
     
 }
 
+.about-img {
+    background: url(../images/about.webp) center center / cover;
+}
+
+.program-img {
+    background: url(../images/dance.webp) center center / cover;
+}
+
+.time-img {
+    background: url(../images/time-img.webp) center center / cover;
+}
+
+.main-content > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em;
+    height: 250px;
+    text-align: justify;
+}
+
 /* Footer  */
 footer {
     background-color: black;
