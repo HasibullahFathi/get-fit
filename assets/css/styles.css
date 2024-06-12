@@ -402,6 +402,10 @@ footer {
         height: 426px;
     }
 
+    .contact-text h4 {
+        margin-bottom: 3em;
+    }
+
     .social-media-list {
         padding: 1em 180px;
     }
