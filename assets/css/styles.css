@@ -262,5 +262,16 @@ footer {
     .social-media-list {
         padding: 1em 180px;
     }
+    
+}
+
+/* media Querie for 1024 px screen sizes */
+@media (min-width: 1024px) {
+
+    .main-content > div {
+        font-size: 150%;
+        height: 580px;
+        
+    }
 
 }
