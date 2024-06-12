@@ -254,6 +254,10 @@ nav li:first-child {
     align-items: center;
 }
 
+textarea#message {
+    height: 75px;
+}
+
 /* Footer  */
 footer {
     background-color: black;
