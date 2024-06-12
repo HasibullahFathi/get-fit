@@ -231,6 +231,21 @@ nav li:first-child {
     text-align: center;
 }
 
+.input-field {
+    margin: 11px 0 10px 0;
+    height: 25px;
+    padding: 0 5px;
+    width: 100%;
+    background: transparent;
+    color: #ffffff;
+    border: solid 1px #dddddd;
+    border-radius: 10px;
+ }
+
+ ::placeholder {
+    color: #dddddd;
+ }
+
 /* Footer  */
 footer {
     background-color: black;
