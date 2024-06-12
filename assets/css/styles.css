@@ -167,6 +167,35 @@ nav li:first-child {
     text-align: justify;
 }
 
+/* Gallery */
+.img1 {
+    background: url(../images/img1.webp) center center / cover;
+}
+.img2 {
+    background: url(../images/img2.webp) center center / cover;
+}
+.img3 {
+    background: url(../images/img3.webp) center center / cover;
+}
+.img4 {
+    background: url(../images/img4.webp) center center / cover;
+}
+.img5 {
+    background: url(../images/img5.webp) center center / cover;
+}
+.img6 {
+    background: url(../images/img6.webp) center center / cover;
+}
+.img7 {
+    background: url(../images/img7.webp) center center / cover;
+}
+.img8 {
+    background: url(../images/img8.webp) center center / cover;
+}
+.img9 {
+    background: url(../images/img9.webp) center center / cover;
+}
+
 /* Footer  */
 footer {
     background-color: black;
