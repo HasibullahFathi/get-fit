@@ -117,6 +117,23 @@ nav li:first-child {
     
 }
 
+.main-content h3 {
+    margin: 10px 0;
+}
+
+.main-content ul {
+    margin-left: 15px;
+    padding-top: inherit;
+}
+
+.main-content p {
+    overflow: auto;
+}
+
+.time p {
+    line-height: 2em;
+}
+
 .about-img {
     background: url(../images/about.webp) center center / cover;
 }
