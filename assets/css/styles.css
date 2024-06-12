@@ -390,6 +390,14 @@ footer {
         flex-direction: row;
     }
 
+    .register-text {
+        width: 400px;
+        padding: 15px;
+        min-height: 400px;
+        line-height: 2em; 
+        width: 370px;
+    }
+
     .social-media-list {
         padding: 1em 180px;
     }
