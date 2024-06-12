@@ -237,6 +237,22 @@ footer {
         border-radius: 10px;
     }
 
+    .program-img {
+        order: 0;
+    }
+    
+    .program {
+        order: 1; 
+    }
+
+    .time-img {
+        order: 1; 
+    }
+
+    .time {
+        order: 1; 
+    }
+
     .social-media-list {
         padding: 1em 180px;
     }
