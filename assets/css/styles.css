@@ -278,6 +278,12 @@ textarea#message {
     color: #ffffff;
 }
 
+/* Login page  */
+.login-img {
+    background: url(../images/login-img.webp) center center / cover;
+    background-position: 28%;
+}
+
 /* Footer  */
 footer {
     background-color: black;
