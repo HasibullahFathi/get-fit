@@ -223,6 +223,14 @@ nav li:first-child {
     width: 300px;
 }
 
+.thin-text {
+    font-weight: 300;
+}
+
+.heading-center {
+    text-align: center;
+}
+
 /* Footer  */
 footer {
     background-color: black;
