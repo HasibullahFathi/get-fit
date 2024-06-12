@@ -125,6 +125,7 @@ nav li:first-child {
     padding-left: 10px;
     min-height: 200px;
     padding-top: 20px;
+    line-height: 2em;
     
 }
 
@@ -223,6 +224,7 @@ footer {
 
     .hero-text {
         bottom: 30%;
+        line-height: 3em;
     }
 
     /* Main  */
@@ -262,7 +264,7 @@ footer {
     .social-media-list {
         padding: 1em 180px;
     }
-    
+
 }
 
 /* media Querie for 1024 px screen sizes */
@@ -272,6 +274,10 @@ footer {
         font-size: 150%;
         height: 580px;
         
+    }
+
+    .hero-text {
+        bottom: 40%;
     }
 
 }
