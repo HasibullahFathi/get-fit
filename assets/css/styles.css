@@ -295,6 +295,19 @@ footer {
         order: 1; 
     }
 
+    /* gallery  */
+    .gallery-heading {
+        margin-bottom: 0;
+    }
+
+    .pic-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0em 1em;
+        padding-left: 0;
+    }
+
     .social-media-list {
         padding: 1em 180px;
     }
