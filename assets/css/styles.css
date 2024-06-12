@@ -258,6 +258,26 @@ textarea#message {
     height: 75px;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #000000;
+    color: #fafafa;
+    font-size: 100%;
+    border: none;
+}
+
+.send-btn:hover {
+    background-color: rgb(139 0 0 / 52%);
+    color: #ffffff;
+}
+
 /* Footer  */
 footer {
     background-color: black;
