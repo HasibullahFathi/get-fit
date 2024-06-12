@@ -168,6 +168,11 @@ nav li:first-child {
 }
 
 /* Gallery */
+.gallery-heading {
+    text-align: center;
+    margin: 1em;
+}
+
 .img1 {
     background: url(../images/img1.webp) center center / cover;
 }
