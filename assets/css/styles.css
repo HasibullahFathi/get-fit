@@ -246,6 +246,14 @@ nav li:first-child {
     color: #dddddd;
  }
 
+ .radio-btn {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* Footer  */
 footer {
     background-color: black;
