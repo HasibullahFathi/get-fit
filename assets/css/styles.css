@@ -187,6 +187,10 @@ footer {
     .nav-toggle {
         width: 320px;
     }
+
+    .hero-img {
+        background-position: 15%;
+    }
 }
 
 /* media Querie for 768 px screen sizes */
