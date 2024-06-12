@@ -385,6 +385,11 @@ footer {
         padding-left: 0;
     }
 
+    /* Contact page  */
+    .contact-container {
+        flex-direction: row;
+    }
+
     .social-media-list {
         padding: 1em 180px;
     }
