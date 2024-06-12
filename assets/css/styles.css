@@ -431,3 +431,13 @@ footer {
     }
 
 }
+
+/* media Querie for 1400 px screen sizes */
+@media (min-width: 1400px) {
+
+    /* Contact page  */
+    .contact-container {
+        background-position: 0 64%;
+    }
+
+}
