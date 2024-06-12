@@ -425,4 +425,9 @@ footer {
         bottom: 40%;
     }
 
+    /* Contact page  */
+    .contact-container {
+        background-position: 0 88%;
+    }
+
 }
