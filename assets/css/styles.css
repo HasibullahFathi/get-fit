@@ -201,6 +201,19 @@ nav li:first-child {
     background: url(../images/img9.webp) center center / cover;
 }
 
+/* Contact us  */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background: url(../images/swimming-img.webp) center center / cover;
+    width: 100%;
+    background-position: 30% 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 /* Footer  */
 footer {
     background-color: black;
