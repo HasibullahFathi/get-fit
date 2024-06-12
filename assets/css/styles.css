@@ -288,6 +288,7 @@ textarea#message {
 footer {
     background-color: black;
     color: white;
+    box-shadow: inset 0px 1px 5px 0px #ffffff5c;
 }
 
 .social-media-list {
