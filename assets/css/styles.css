@@ -94,6 +94,11 @@ nav li:first-child {
 
 /* Main  */
 .hero {
+    width: 100%;
+    height: 600px;
+    background: url(../images/hero-img.webp) no-repeat center center / cover;
+    background-position: 5%;
+    position: relative;
     display: flex;
 }
 
@@ -105,24 +110,18 @@ nav li:first-child {
     font-size: 190%;
 }
 
-.hero-img {
-    width: 100%;
-    height: 600px;
-    background: url(../images/hero-img.webp) no-repeat center center / cover;
-    background-position: 25%;
-    position: relative;
-}
-
 .hero-text {
-    background-color: rgb(139 0 0 / 37%);
-    bottom: 39%;
-    left: 10%;
+    background-color: rgba(97, 0, 0, 0.575);
+    bottom: -57%;
+    height: 200px;
+    width: 400px;
     color: #ffffff;
-    position: absolute;
+    position: relative;
     padding-left: 10px;
     min-height: 200px;
     padding-top: 20px;
     line-height: 2em;
+    
 
 }
 
@@ -316,10 +315,6 @@ footer {
     .nav-toggle {
         width: 320px;
     }
-
-    .hero-img {
-        background-position: 15%;
-    }
 }
 
 @media (min-width: 768px) {
@@ -344,8 +339,10 @@ footer {
     }
 
     .hero-text {
-        bottom: 40%;
+        /* bottom: -57%; */
+        left: 15%;
         line-height: 3em;
+        width: 550px;
     }
 
     /* Main  */
@@ -428,10 +425,6 @@ footer {
         font-size: 150%;
         height: 580px;
 
-    }
-
-    .hero-text {
-        bottom: 40%;
     }
 
     /* Contact page  */
