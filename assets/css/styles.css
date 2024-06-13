@@ -335,7 +335,7 @@ footer {
     }
 
     .remove-hover a:hover {
-        background-color: #000000;
+        background-color: unset;
     }
 
     .hero-text {
