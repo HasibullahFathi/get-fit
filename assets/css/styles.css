@@ -22,7 +22,6 @@ h3 {
 /* Header  */
 nav {
     background-color: #000000;
-    /* add shadow under the navbar */
     box-shadow: inset -1px -1px 5px 0px #ffffffbe;
 }
 
@@ -55,7 +54,6 @@ a span {
     font-size: 155%;
 }
 
-/* push the logo to the left side of the navbar */
 nav li:first-child {
     margin-right: auto;
     border-bottom: none;
@@ -66,7 +64,6 @@ nav li:first-child {
     border-radius: 30px;
 }
 
-/* toggleing part of the nav button  */
 .nav-toggle {
     display: none;
     flex-direction: column;
@@ -83,7 +80,6 @@ nav li:first-child {
     backdrop-filter: blur(10px);
 }
 
-/* toggleing part of the nav button  */
 .nav-toggle a {
     width: 100%;
 }
@@ -92,7 +88,6 @@ nav li:first-child {
     width: 100%;
 }
 
-/* hide nave in smaller screens */
 .hide-nav {
     display: none;
 }
@@ -317,7 +312,6 @@ footer {
 }
 
 /* media queries  */
-/* media Querie for 320 px screen sizes  */
 @media (min-width: 320px) {
     .nav-toggle {
         width: 320px;
@@ -328,7 +322,6 @@ footer {
     }
 }
 
-/* media Querie for 768 px screen sizes */
 @media (min-width: 768px) {
 
     .hide-nav {
@@ -429,7 +422,6 @@ footer {
 
 }
 
-/* media Querie for 1024 px screen sizes */
 @media (min-width: 1024px) {
 
     .main-content>div {
@@ -449,7 +441,6 @@ footer {
 
 }
 
-/* media Querie for 1400 px screen sizes */
 @media (min-width: 1400px) {
 
     /* Contact page  */
