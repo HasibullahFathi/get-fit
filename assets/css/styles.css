@@ -13,7 +13,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Rubik', sans-serif;
 }
 
@@ -126,7 +128,7 @@ nav li:first-child {
     min-height: 200px;
     padding-top: 20px;
     line-height: 2em;
-    
+
 }
 
 .main-content h3 {
@@ -158,7 +160,7 @@ nav li:first-child {
     background: url(../images/time-img.webp) center center / cover;
 }
 
-.main-content > div {
+.main-content>div {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -176,27 +178,35 @@ nav li:first-child {
 .img1 {
     background: url(../images/img1.webp) center center / cover;
 }
+
 .img2 {
     background: url(../images/img2.webp) center center / cover;
 }
+
 .img3 {
     background: url(../images/img3.webp) center center / cover;
 }
+
 .img4 {
     background: url(../images/img4.webp) center center / cover;
 }
+
 .img5 {
     background: url(../images/img5.webp) center center / cover;
 }
+
 .img6 {
     background: url(../images/img6.webp) center center / cover;
 }
+
 .img7 {
     background: url(../images/img7.webp) center center / cover;
 }
+
 .img8 {
     background: url(../images/img8.webp) center center / cover;
 }
+
 .img9 {
     background: url(../images/img9.webp) center center / cover;
 }
@@ -219,7 +229,7 @@ nav li:first-child {
     color: #ffffff;
     padding: 10px;
     min-height: 200px;
-    line-height: 1.5em; 
+    line-height: 1.5em;
     width: 300px;
 }
 
@@ -240,13 +250,13 @@ nav li:first-child {
     color: #ffffff;
     border: solid 1px #dddddd;
     border-radius: 10px;
- }
+}
 
- ::placeholder {
+::placeholder {
     color: #dddddd;
- }
+}
 
- .radio-btn {
+.radio-btn {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -341,7 +351,7 @@ footer {
     }
 
     .hero-text {
-        bottom: 40;
+        bottom: 40%;
         line-height: 3em;
     }
 
@@ -354,7 +364,7 @@ footer {
         padding: 20px;
         border-radius: 10px;
     }
-    
+
     .col {
         flex: 1 1 calc(50% - 40px);
         box-sizing: border-box;
@@ -366,17 +376,17 @@ footer {
     .program-img {
         order: 0;
     }
-    
+
     .program {
-        order: 1; 
+        order: 1;
     }
 
     .time-img {
-        order: 1; 
+        order: 1;
     }
 
     .time {
-        order: 1; 
+        order: 1;
     }
 
     /* gallery  */
@@ -401,7 +411,7 @@ footer {
         width: 400px;
         padding: 15px;
         min-height: 400px;
-        line-height: 2em; 
+        line-height: 2em;
         width: 370px;
     }
 
@@ -422,10 +432,10 @@ footer {
 /* media Querie for 1024 px screen sizes */
 @media (min-width: 1024px) {
 
-    .main-content > div {
+    .main-content>div {
         font-size: 150%;
         height: 580px;
-        
+
     }
 
     .hero-text {
