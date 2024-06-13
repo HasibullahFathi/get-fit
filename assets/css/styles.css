@@ -293,7 +293,8 @@ textarea#message {
 footer {
     background-color: black;
     color: white;
-    box-shadow: inset 0px 1px 5px 0px #ffffff5c;
+    /* box-shadow: inset 0px 1px 5px 0px #ffffff5c; */
+    box-shadow: inset 0px 1px 5px 0px #f9f7f7;
 }
 
 .social-media-list {
