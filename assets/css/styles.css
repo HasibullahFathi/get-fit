@@ -23,7 +23,7 @@ h3 {
 nav {
     background-color: #000000;
     /* add shadow under the navbar */
-    box-shadow: inset -1px -1px 5px 0px #ffffff5c;
+    box-shadow: inset -1px -1px 5px 0px #ffffffbe;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav li {
 }
 
 a span {
-    color: rgb(170, 0, 0);
+    color: rgb(255, 0, 0);
 }
 
 .logo a {
