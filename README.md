@@ -99,6 +99,7 @@ live link of GetFit page: https://hasibullahfathi.github.io/get-fit/index.html
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site.
-- The images used for the gallery page were taken from this other open source site.
+- The photos used on the webpage are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/) websites.
+- Photos have been resized and their format changed using the [Tinypng](https://tinypng.com/) website.
+
 
