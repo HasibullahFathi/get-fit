@@ -5,7 +5,7 @@ GetFit is a comprehensive web page designed to showcase the activities of a gym 
 
 ## Responsiveness of page:
 
-- All pages has been tested they are responsive  in all devices
+- All pages have been tested and are responsive on all devices.
 
 ![Responsice Mockup](/media/dropdown-menu.png)
 
