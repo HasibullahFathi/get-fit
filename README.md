@@ -75,3 +75,22 @@ GetFit is a comprehensive web page designed to showcase the activities of a gym 
 
 - Am I Responsive shows that the contact page content is overlapping the header and footer on mobile screens, but I checked it in different browser breakpoints and mobile devices, and it is responsive with no issues.
 
+## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Mian and /root.
+    - Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - Generates a link which is the URL of our page.
+live link of GetFit page: https://hasibullahfathi.github.io/get-fit/index.html
+
+## Credits 
+
+### Content 
+
+- Footers, hero text, and the setup of the favicon were taken from the Love Running project with a bit of modification.
+- Icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site.
+- The images used for the gallery page were taken from this other open source site.
