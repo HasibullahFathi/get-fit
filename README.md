@@ -22,3 +22,28 @@ GetFit is a comprehensive web page designed to showcase the activities of a gym 
     - Footer: The footer section contains links to social media pages.
 
     ![Responsice Mockup](/media/nav.png)
+
+- __Gallery__
+
+    - This page, linked in the navigation bar, contains all the photos.
+
+    ![Responsice Mockup](/media/gallery.png)
+
+- __Contact__
+
+    - This page provides contact details, including phone, address, and email.
+    - It features a form for users or customers to register for programs.
+    - Users can make online reservations.
+    - It helps providers manage and reserve services better for customers.
+
+    ![Responsice Mockup](/media/contact.png)
+    ![Responsice Mockup](/media/form-submition.png)
+
+- __Sign Up__
+
+    - Users or customers can register or create an account on the page.
+    - Members can view their activities and access more functionalities.
+    - Gym managers can manage users and send offers.
+
+    ![Responsice Mockup](/media/sign-up.png)
+
