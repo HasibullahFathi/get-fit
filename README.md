@@ -47,3 +47,31 @@ GetFit is a comprehensive web page designed to showcase the activities of a gym 
 
     ![Responsice Mockup](/media/sign-up.png)
 
+### Features Left to Implement
+
+- Another feature idea.
+
+## Testing
+
+- All links were tested and confirmed to be working properly.
+- The website was tested in browsers like Chrome and Safari.
+- Texts in each section and on all pages were reviewed to ensure they are readable and understandable.
+- Both forms were tested for proper functionality and validation.
+- Two bugs that appeared while checking on different devices, like iPhones, were resolved:
+    - The dropdown menu had insufficient contrast.
+    - The hero text was overlapping with the header.
+- Lighthouse optimization was performed to improve Largest Contentful Paint by adding a preload link tag in the head of the page.
+
+    ![Responsice Mockup](/media/lighthouse-report.png)
+
+### Validator Testing 
+
+- HTML
+    - No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
+
+- Am I Responsive shows that the contact page content is overlapping the header and footer on mobile screens, but I checked it in different browser breakpoints and mobile devices, and it is responsive with no issues.
+
