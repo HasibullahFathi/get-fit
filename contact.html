@@ -21,7 +21,6 @@
         <!-- Header -->
         <header>
             <nav>
-                <!-- menu for mobile or smaller screen with burgur icon -->
                 <ul class="nav-toggle">
                     <li onclick=closeMenu()><a href="#" aria-label="toggle menu button"><i class="fa-solid fa-xmark"></i></a></li>
                     <li><a href="index.html">Home</a></li>
@@ -29,7 +28,6 @@
                     <li class="active"><a href="contact.html">Contact</a></li>
                     <li><a href="sign-up.html">Sign Up</a></li>
                 </ul>
-                <!-- menu for larger screen  -->
                 <ul>
                     <li class="logo remove-hover"><a href="index.html">Get<span>Fit</span></a></li>
                     <li class="hide-nav"><a href="index.html">Home</a></li>
@@ -72,7 +70,6 @@
                         <input type="email" id="email" name="email" placeholder="your email" class="input-field"
                             required>
                         <br>
-                        <!-- radio buttons for gender  -->
                         <div class="radio-btn">
                             <p>Gender</p>
                             <div>
@@ -115,15 +112,12 @@
             </ul>
         </footer>
 
-        <!-- Scripts for fontawesome -->
         <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
         <script>
-            // querie to open navbar in mobile and small screens 
             function openMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'flex'
             }
-            // querie to close navigator menu in small screens
             function closeMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'none'

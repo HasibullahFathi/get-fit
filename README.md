@@ -16,12 +16,19 @@ GetFit is a comprehensive web page designed to showcase the activities of a gym 
 - __Navigation Bar__
 
     - Navigation: At the top of the page, there is a navigation bar in the header which is linked to each page.
+
+    ![Responsice Mockup](/media/nav.png)
+
     - Logo: The GetFit logo is located at the top left corner and links to the home page.
     - Hero Section: The hero text is displayed on top of the hero image, clearly showing the purpose of the page.  
     - Content Section: This section, located at the bottom of the hero section, includes information about us, our programs, and opening times, each accompanied   by relevant images. 
+
+    ![Responsice Mockup](/media/about-programs.png)
+
     - Footer: The footer section contains links to social media pages.
 
-    ![Responsice Mockup](/media/nav.png)
+    ![Responsice Mockup](/media/footer.png)
+
 
 - __Gallery__
 
