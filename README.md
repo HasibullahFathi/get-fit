@@ -67,9 +67,9 @@ GetFit is a comprehensive web page designed to showcase the activities of a gym 
 ### Validator Testing 
 
 - HTML
-    - No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+    - No errors were found when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Unfixed Bugs
 
@@ -87,10 +87,11 @@ live link of GetFit page: https://hasibullahfathi.github.io/get-fit/index.html
 
 ### Content 
 
-- Footers, hero text, and the setup of the favicon were taken from the Love Running project with a bit of modification.
+- Footers, hero text, and the setup of the favicon were taken from [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project with a bit of modification.
 - Icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site.
 - The images used for the gallery page were taken from this other open source site.
+
