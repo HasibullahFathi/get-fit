@@ -8,13 +8,14 @@
         <meta name="keywords" content="get fit, workout, sport, fit, fitness, training, exercise, muscels, body, bodybuilding, health, gym, gym lovers, germany, Landau, cycling, mountain climbing, swimming, dancing, yoga, marathon, vvents">
         <!-- page title -->
         <title>Get fit</title>
-
+        <!-- favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
         <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
         <!-- css link -->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- preload hero image -->
         <link fetchpriority="high" rel="preload" href="assets/images/hero-img.webp" as="image">
     </head>
 
@@ -30,7 +31,7 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="sign-up.html">Sign Up</a></li>
                 </ul>
-                <!-- menu for larger screen  -->
+                <!-- navbar for larger screen  -->
                 <ul>
                     <li class="logo remove-hover"><a href="index.html">Get<span>Fit</span></a></li>
                     <li class="active hide-nav"><a href="index.html">Home</a></li>
@@ -59,7 +60,7 @@
                         We focus on holistic well-being, offering tailored programs for all fitness levels. Join us and
                         transform your health and body today.</p>
                 </div>
-                <div class="about-img col"></div>
+                <div class="about-img col"  aria-label="A man working out"></div>
 
                 <div class="program col">
                     <h3>Our Programs</h3>
@@ -73,7 +74,7 @@
                         <li>Marathon</li>
                     </ul>
                 </div>
-                <div class="program-img col"></div>
+                <div class="program-img col"  aria-label="Women are dancing"></div>
 
                 <div class="time col">
                     <h3>Gym opening time</h3>
@@ -81,7 +82,7 @@
                     <p><strong>Weekends</strong> 9am - 8pm</p>
                     <p><strong>Holidays</strong> 9am - 8pm</p>
                 </div>
-                <div class="time-img col"></div>
+                <div class="time-img col"  aria-label="Dumbbell, and a sign of wake up and workout"></div>
 
             </section>
         </main>
@@ -103,13 +104,15 @@
                             class="fa-brands fa-square-instagram"></i></a></li>
             </ul>
         </footer>
-
+        <!-- Scripts for fontawesome -->
         <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
         <script>
+            // querie to open navbar in mobile and small screens 
             function openMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'flex'
             }
+            // querie to close navigator menu in small screens
             function closeMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'none'

@@ -8,12 +8,14 @@
         <meta name="keywords" content="get fit, workout, sport, fit, fitness, training, exercise, muscels, body, bodybuilding, health, gym, gym lovers, germany, Landau, cycling, mountain climbing, swimming, dancing, yoga, marathon, vvents">
        <!-- page title -->
         <title>Get fit</title>
-        <!-- css link -->
+        <!-- favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
         <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+        <!-- css link -->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- preload image link  -->
         <link fetchpriority="high" rel="preload" href="assets/images/login-img.webp" as="image">
     </head>
 
@@ -21,6 +23,7 @@
         <!-- Header -->
         <header>
             <nav>
+                <!-- menu for mobile or smaller screen with burgur icon -->
                 <ul class="nav-toggle">
                     <li onclick=closeMenu()><a href="#" aria-label="close button"><i class="fa-solid fa-xmark"></i></a></li>
                     <li><a href="index.html">Home</a></li>
@@ -28,6 +31,7 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li class="active"><a href="sign-up.html">Sign Up</a></li>
                 </ul>
+                <!-- navbar for larger screen  -->
                 <ul>
                     <li class="logo remove-hover"><a href="index.html">Get<span>Fit</span></a></li>
                     <li class="hide-nav"><a href="index.html">Home</a></li>
@@ -40,10 +44,11 @@
         </header>
 
         <!-- Main  -->
-        <main class="contact-container login-img">
+        <main class="contact-container login-img" aria-label="women is training with a ball">
             <section>
                 <div class="register-text">
                     <h1>Sign Up</h1>
+                    <!-- sign up form  -->
                     <form action="https://formdump.codeinstitute.net" method="POST">
                         <label for="f-name">First Name: </label>
                         <input type="text" id="f-name" name="f-name" placeholder="First name" class="input-field"
@@ -98,10 +103,12 @@
 
         <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
         <script>
+            // querie to open navbar in mobile and small screens 
             function openMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'flex'
             }
+            // querie to close navigator menu in small screens
             function closeMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'none'

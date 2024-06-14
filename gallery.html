@@ -8,12 +8,14 @@
         <meta name="keywords" content="get fit, workout, sport, fit, fitness, training, exercise, muscels, body, bodybuilding, health, gym, gym lovers, germany, Landau, cycling, mountain climbing, swimming, dancing, yoga, marathon, vvents">
        <!-- page title -->
         <title>Get fit</title>
-        <!-- css link -->
+        <!-- favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
         <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+        <!-- css link -->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- preload image link  -->
         <link fetchpriority="high" rel="preload" href="assets/images/img9.webp" as="image">
     </head>
 
@@ -21,6 +23,7 @@
         <!-- Header -->
         <header>
             <nav>
+                <!-- navbar for mobile or smaller screen with burgur icon -->
                 <ul class="nav-toggle">
                     <li onclick=closeMenu()><a href="#" aria-label="toggle menu button"><i class="fa-solid fa-xmark"></i></a></li>
                     <li><a href="index.html">Home</a></li>
@@ -28,6 +31,7 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="sign-up.html">Sign Up</a></li>
                 </ul>
+                <!-- navbar for larger screen  -->
                 <ul>
                     <li class="logo remove-hover"><a href="index.html">Get<span>Fit</span></a></li>
                     <li class="hide-nav"><a href="index.html">Home</a></li>
@@ -44,15 +48,15 @@
             <section>
                 <h1 class="gallery-heading">Photos</h1>
                 <div class="main-content pic-container">
-                    <div class="img1 col"></div>
-                    <div class="img2 col"></div>
-                    <div class="img3 col"></div>
-                    <div class="img4 col"></div>
-                    <div class="img5 col"></div>
-                    <div class="img6 col"></div>
-                    <div class="img7 col"></div>
-                    <div class="img8 col"></div>
-                    <div class="img9 col"></div>
+                    <div class="img1 col" aria-label="Woman jumping on a box"></div>
+                    <div class="img2 col" aria-label="Man go up on a rope"></div>
+                    <div class="img3 col" aria-label="Man kicking sandbag"></div>
+                    <div class="img4 col" aria-label="Man exercises stretching"></div>
+                    <div class="img5 col" aria-label="A woman and man exercises stretching"></div>
+                    <div class="img6 col" aria-label="three people are Cycling"></div>
+                    <div class="img7 col" aria-label="Man working out"></div>
+                    <div class="img8 col" aria-label="Women are exercising"></div>
+                    <div class="img9 col" aria-label="Man exercises with rope"></div>
                 </div>
             </section>
         </main>
@@ -74,13 +78,15 @@
                             class="fa-brands fa-square-instagram"></i></a></li>
             </ul>
         </footer>
-
+        <!-- Scripts for fontawesome -->
         <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
         <script>
+            // querie to open navbar in mobile and small screens 
             function openMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'flex'
             }
+            // querie to close navigator menu in small screens
             function closeMenu() {
                 const sidebar = document.querySelector('.nav-toggle')
                 sidebar.style.display = 'none'
